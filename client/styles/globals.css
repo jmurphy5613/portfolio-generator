@@ -13,4 +13,31 @@ a {
 
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.background {
+  height: 100vh;
+  width: auto;
+  background-color: rgb(15, 23, 42);
+}
+
+/*
+ * Fonts
+ */
+
+@font-face {
+  font-family:"nice";
+  src: url("fonts/JetBrainsMono-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family:"medium";
+  src: url("fonts/SFNSDisplay-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family:"light";
+  src: url("fonts/SFNSDisplay-Thin.ttf") format("truetype");
 }
